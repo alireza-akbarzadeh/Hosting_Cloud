@@ -1,0 +1,19 @@
+.root {
+  display: grid;
+
+}
+
+@media screen and(min-width: 768px) {
+  .col-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.col-4{
+  grid-template-columns: repeat(4, 1fr);
+}

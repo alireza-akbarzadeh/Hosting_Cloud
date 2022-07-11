@@ -1,0 +1,64 @@
+.root {
+  border-radius: 20rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  font-size: 2rem;
+  white-space: nowrap;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+
+.error {
+  background-color: var(--color-error);
+  color: #fff;
+}
+
+.warning {
+  background-color: var(--color-warning);
+  color: #fff;
+}
+
+.info {
+  background-color: var(--color-info);
+  color: #fff;
+}
+
+.success {
+  background-color: var(--color-success);
+  color: #fff;
+}
+
+.small {
+  font-size: 1.6rem;
+}
+
+.medium {
+  font-size: 1.8rem;
+}
+
+.large {
+  font-size: 2.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .root {
+    font-size: 1.5rem;
+  }
+  .small {
+    font-size: 1.2rem;
+  }
+  .medium {
+    font-size: 1.6rem;
+  }
+  .large {
+    font-size: 2.1rem;
+  }
+}

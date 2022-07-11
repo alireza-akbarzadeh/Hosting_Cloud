@@ -1,0 +1,70 @@
+$primary: orange;
+.root {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2rem 3rem;
+  border: 0;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  margin: 1rem 0;
+  @media screen and (min-width: 1024px) {
+    font-size: 1.5rem;
+  }
+}
+
+.fullWidth {
+  width: 100%;
+  display: inline-block;
+}
+
+.primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+
+  &:hover {
+    background: #3a8ffd;
+  }
+}
+
+.secondary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+
+  &:hover {
+    background: #00c8cb;
+  }
+}
+
+.accent {
+  background: var(--color-accent);
+  color: var(--color-white);
+
+  &:hover {
+    background: #ec3000;
+  }
+}
+
+.outline {
+  background: transparent;
+  color: var(--color-headings);
+  border: 2px solid var(--color-headings);
+
+  &:hover {
+    background: var(--color-headings);
+    color: #fff;
+  }
+}
+
+.rounded-lg {
+  border-radius: 40px;
+}
+
+.rounded-md {
+  border-radius: var(--border-radius);
+}
+
+.rounded-sm {
+  border-radius: 20px;
+}

@@ -1,0 +1,26 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-success: hsl(141, 53%, 53%);
+  --color-warning: hsl(48, 100%, 67%);
+  --color-error: hsl(348, 100%, 61%);
+  --color-info: hsl(204, 86%, 53%);
+  --color-white: #fff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --color-body-darker: #5c5577;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
+// darkTheme
+[data-theme="dark"]:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-success: hsl(141, 53%, 53%);
+  --color-warning: hsl(48, 100%, 67%);
+  --color-error: hsl(348, 100%, 61%);
+  --color-info: hsl(204, 86%, 53%);
+  --color-accent: #ff3400;
+}

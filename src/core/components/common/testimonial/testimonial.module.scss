@@ -1,0 +1,22 @@
+.root {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+  padding: 3rem;
+  margin-top: 4rem;
+  .image {
+    position: relative;
+  }
+
+  .image > img {
+    width: 100%;
+  }
+
+  .icon {
+    background: red;
+    color: #fff;
+    position: absolute;
+    top: 3rem;
+    right: -32px;
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "hello": "Hello",
+  "greet": "Hello, {{name}}!",
+  "world": "World",
+  "Learn_More": "Learn More",
+  "documentation": "Dökümantasyona Git",
+  "language": {
+    "tr": "🇹🇷 Türkçe",
+    "fa": "IR iran",
+    "en": "🇺🇸 English"
+  }
+}
+

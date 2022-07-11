@@ -1,0 +1,25 @@
+.root {
+  margin: 4rem 0;
+  @media screen and (max-width: 1024px) {
+    padding: 2rem;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .reverse {
+    grid-gap: 4rem 2rem;
+    align-self: center;
+    justify-self: center;
+    .content {
+      @media screen and (min-width: 1024px) {
+        order: 2;
+      }
+    }
+  }
+  .image {
+    width: 100%;
+  }
+}

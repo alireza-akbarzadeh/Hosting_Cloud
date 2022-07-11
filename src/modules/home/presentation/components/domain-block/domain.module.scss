@@ -1,0 +1,43 @@
+.domain {
+  max-width: 780px;
+  margin: 4rem auto;
+  .icon {
+    margin-right: 1rem;
+    vertical-align: middle;
+  }
+
+  .search {
+    margin-right: 5px;
+    position: absolute;
+    right: 2px;
+  }
+  .header {
+    margin-bottom: 4rem;
+  }
+  .shadow {
+    box-shadow: 0 0 30px 20px #e6ebee;
+    border: 0;
+    height: 80px;
+  }
+
+  .price {
+    margin-top: 2rem;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 6rem);
+    justify-items: center;
+    align-items: center;
+    @media screen and (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (min-width: 1024px) {
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+    li {
+      color: var(--color-headings);
+      font-weight: 600;
+      font-size: 2rem;
+    }
+  }
+}

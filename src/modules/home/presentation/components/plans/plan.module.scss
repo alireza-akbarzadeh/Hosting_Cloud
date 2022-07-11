@@ -1,0 +1,10 @@
+.root {
+  grid-gap:3rem 2rem;
+  .plan {
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+    }
+    transition: transform 0.3s ease-out;
+  }
+}

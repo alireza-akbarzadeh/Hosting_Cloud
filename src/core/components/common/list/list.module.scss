@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  @media screen and (min-width: 1024px) {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  color: var(--color-headings);
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.md {
+  gap: 20px;
+}
+
+.lg {
+  gap: 25px;
+}
+
+.sm {
+  gap: 15px;
+}
+
+.xs {
+  gap: 10px;
+}
+
+.xl {
+  gap: 30px;
+}

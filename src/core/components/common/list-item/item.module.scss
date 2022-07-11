@@ -1,0 +1,10 @@
+.root {
+  padding-left: 0.5rem;
+}
+
+.tick {
+  list-style-image: url("/icons/tick.svg");
+  @media screen and (min-width: 1024px) {
+    padding-left: 0;
+  }
+}

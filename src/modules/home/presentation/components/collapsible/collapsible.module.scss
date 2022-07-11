@@ -1,0 +1,44 @@
+.root {
+  .content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heading {
+    margin-top: 0;
+    color: #fff;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .chevron {
+    transform: rotate(-90deg);
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+    background: #333;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
+
+.expanded {
+  .chevron {
+    transform: rotate(0);
+  }
+
+  .content {
+    opacity: 1;
+    max-height: 100vh;
+  }
+}

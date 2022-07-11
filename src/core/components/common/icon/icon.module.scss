@@ -1,0 +1,22 @@
+.root {
+  width: 65px;
+  height: 65px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+}
+.primary{
+  color: #1b0760;
+}
+
+.secondary{
+  color: #5c5577;
+}
+
+.outline{
+  background-color: transparent;
+}
+.contained{
+  background-color: #f3f9fa;
+}

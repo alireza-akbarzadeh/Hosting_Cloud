@@ -1,0 +1,74 @@
+.root {
+  .nav {
+    display: flex;
+    background: #000;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+  }
+
+  .icon {
+    cursor: pointer;
+    color: #faf8f9;
+    opacity: 0.6;
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+
+  .shadow {
+    opacity: 1;
+    color: #fff;
+    box-shadow: 0 0 0 3px #333;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .logo {
+    transform: translateY(5px);
+  }
+
+  .list {
+    width: 100%;
+    margin: 0;
+    font-size: 1.6rem;
+    @media screen and (min-width: 768px) {
+      width: auto;
+    }
+  }
+
+  .item {
+    padding: 0.5rem 2rem;
+    @media screen and (max-width: 768px) {
+      border-bottom: 1px solid #222;
+    }
+    a {
+      color: #d2d0db;
+      transition: color 0.3s ease-in-out;
+
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+
+}
+
+.collapsible_Content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.collapsible {
+  transition: all 0.3s ease-in-out;
+
+  .collapsible_Content {
+    max-height: 100vh;
+    overflow: hidden;
+    opacity: 1;
+  }
+}

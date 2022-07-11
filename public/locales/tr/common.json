@@ -1,0 +1,13 @@
+{
+  "hello": "Merhaba",
+  "greet": "Merhaba, {{name}}!",
+  "world": "Dünya",
+  "documentation": "Dökümantasyona Git",
+  "Learn_More": "بیشتر بدانید ترکی",
+  "language": {
+    "tr": "🇹🇷 Türkçe",
+    "fa": "IR iran",
+    "en": "🇺🇸 English"
+  }
+}
+

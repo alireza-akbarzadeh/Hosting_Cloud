@@ -1,0 +1,39 @@
+.root {
+  padding: 4rem;
+  border-radius: 5px;
+
+  .grid {
+    grid-template-columns: 1fr auto;
+  }
+
+  .content {
+    text-align: center;
+    @media screen and(min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  .btn {
+    justify-self: center;
+    align-self: center;
+    @media screen and(min-width: 768px) {
+      justify-self: start;
+    }
+  }
+}
+
+.primary {
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.secondary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.heading {
+  color: var(--color-white);
+  margin-top: 0;
+  font-size: 3rem;
+}

@@ -1,0 +1,30 @@
+.group {
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  display: flex;
+  position: relative;
+  .root {
+    flex-grow: 1;
+    padding: 1.5rem 2rem;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 30px;
+    color: var(--color-headings);
+    font-size: 2rem;
+    @media screen and (min-width: 1024px) {
+      font-size: 1.5rem;
+    }
+
+    &::placeholder {
+      color: #cdcbd7;
+    }
+  }
+
+  & .root {
+    border: 0;
+  }
+
+  .fullWidth {
+    width: 100%;
+  }
+}
